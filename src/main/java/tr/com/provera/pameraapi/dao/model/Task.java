@@ -1,5 +1,5 @@
 package tr.com.provera.pameraapi.dao.model;
-package tr.com.provera.pameraapi.dao.entity;
+
 
 import tr.com.provera.pameraapi.dao.common.BaseModel;
 
@@ -10,7 +10,11 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import jakarta.persistence.*;
 import tr.com.provera.pameraapi.enumerate.TaskCategory;
+import tr.com.provera.pameraapi.enumerate.TaskStatus;
+import tr.com.provera.pameraapi.enumerate.TaskType;
 import tr.com.provera.pameraapi.enumerate.converter.TaskCategoryConverter;
+import tr.com.provera.pameraapi.enumerate.converter.TaskStatusConverter;
+import tr.com.provera.pameraapi.enumerate.converter.TaskTypeConverter;
 
 import java.util.Date;
 

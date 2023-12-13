@@ -15,6 +15,12 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import jakarta.persistence.*;
 import tr.com.provera.pameraapi.dao.common.BaseModel;
+import tr.com.provera.pameraapi.enumerate.WorkitemCategory;
+import tr.com.provera.pameraapi.enumerate.WorkitemState;
+import tr.com.provera.pameraapi.enumerate.WorkitemType;
+import tr.com.provera.pameraapi.enumerate.converter.WorkitemCategoryConverter;
+import tr.com.provera.pameraapi.enumerate.converter.WorkitemStateConverter;
+import tr.com.provera.pameraapi.enumerate.converter.WorkitemTypeConverter;
 
 import java.util.Date;
 import java.util.HashSet;
